@@ -32,15 +32,26 @@ class MainActivity : ComponentActivity() {
 }
 
 fun week02Variable(){
-    println("Week02 Variable")
+//    println("Week02 Variable")
+//
+//    val courseName = "Mobile Programming"
+//    //courseName = "IoT Programming"
+//    var week = 1
+//    week = 2
+//
+//    println("Course : $courseName")
+//    println("Week : $week")
+    println("== Kotlin Variable ==")
 
-    val courseName = "Mobile Programming"
-    //courseName = "IoT Programming"
-    var week = 1
-    week = 2
+    val name: String = "Android"
+    var version: Double = 8.1
+    println("Hello $name $version")
 
-    println("Course : $courseName")
-    println("Week : $week")
+    val age: Int = 23
+    val height: Double = 200.0
+    val inStudent: Boolean = false
+
+    println("Age : $age, Height : $height, Student : $inStudent")
 }
 
 @Composable
