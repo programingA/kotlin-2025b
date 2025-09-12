@@ -28,6 +28,7 @@ class MainActivity : ComponentActivity() {
             }
         }
         week02Variable()
+        week02Functions()
     }
 }
 
@@ -52,6 +53,30 @@ fun week02Variable(){
     val inStudent: Boolean = false
 
     println("Age : $age, Height : $height, Student : $inStudent")
+}
+
+fun week02Functions(){
+    println("Week02 Functions")
+
+//    fun greet(name: String) = "Hello, $name!"
+//    println(greet("Android Developer"))
+
+    println("== Kotlin Functions ==")
+
+    fun greet(name: String): String {
+        return "Hello, $name"
+    }
+
+    fun add(a: Int, b: Int) = a + b
+    
+    fun introduce(name: String, age: Int = 19){
+        println("my name is $name and I'm $age years old")
+    }
+
+    println(greet("Kotlin"))
+    println("Sum : ${add(5, 2)}")
+    introduce("Park")
+    introduce("Kim", 20)
 }
 
 @Composable
