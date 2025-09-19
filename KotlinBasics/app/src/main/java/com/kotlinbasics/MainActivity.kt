@@ -55,6 +55,33 @@ fun week02Variable(){
     println("Age : $age, Height : $height, Student : $inStudent")
 }
 
+private fun week03Classes(){
+    println("== kotlin Classes ==")
+
+    class Student{
+        var name: String = ""
+        var age: Int = 0
+
+        fun introduce(){
+            println("Hi, I'm $name and I'm $age years old")
+        }
+    }
+    val student = Student()
+    student.name = "Chen"
+    student.age = 23
+    student.introduce()
+
+    data class Person(val name: String, val age: Int)
+
+    val person1 = Person("lee", 24)
+    val person2 = Person("lee", 24)
+    //val person2 = Person("kim", 22)
+
+    println("Person1 : $person1")
+    //println("Equal? : $person1 == $person2")
+    println("Equal? : ${person1 == person2}")
+}
+
 fun week02Functions(){
     println("Week02 Functions")
 
