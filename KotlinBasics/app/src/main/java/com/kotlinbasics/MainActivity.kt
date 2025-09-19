@@ -35,17 +35,59 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-private fun week03Collections(){
-    Log.d("KotlinWeek03", "== Kotlin Collections ==")
+private fun week03Classes(){
+    Log.d("KotlinWeek03", "== Kotlin Classes ==")
 
-    val fruits = listOf("apple", "banana", "orange")
-    //fruits.add("kiwi") //error
-    Log.d("KotlinWeek03", "Fruits : $fruits")
-
-    for(fruit in fruits){
-        Log.d("KotlinWeek03", "Fruit : $fruit")
+    class Person(val name: String, var age: Int){
+        fun introduce(){
+            Log.d("KotlinWeek03", "Hi, I'm $name and age $age old")
+        }
+        fun birthday(){
+            age++
+            Log.d("KotlinWeek03", "$name is birthday  now $age old")
+        }
     }
+    val person1 = Person("kim", 32)
+    person1.introduce()
+    person1.birthday()
+
+    class Animal(var species: String){
+        var weight: Double = 0.0
+        constructor(species: String, weight: Double) : this(species){
+            this.weight = weight
+            Log.d("KotlinWeek03", "$species at weight : now $weight kg"
+        }
+        fun makeSound(){
+            Log.d("KotlinWeek03", "$species yell")
+        }
+    }
+    val puppy = Animal("puppy", 6.5)
+    puppy.makeSound()
 }
+
+
+//private fun week03Collections(){
+//    Log.d("KotlinWeek03", "== Kotlin Collections ==")
+//
+//    val fruits = listOf("apple", "banana", "orange")
+//    //fruits.add("kiwi") //error
+//    val mutableFuits = mutableListOf("kiwi", "watermelon")
+//    mutableFuits.add("banana")
+//    Log.d("KotlinWeek03", "Fruits : $fruits")
+//    Log.d("KotlinWeek03", "Mutable Fruits : $mutableFuits")
+//
+//    val score = mapOf("Kim" to 97, "Park" to 100, "Lee" to 99)
+//    Log.d("KotlinWeek03", "$score")
+//
+//    for(fruit in fruits){
+//        Log.d("KotlinWeek03", "Fruit : $fruit")
+//    }
+//    for(fruit in mutableFuits){
+//        Log.d("KotlinWeek03", "Mutable Fruit : $fruit")
+//    }
+//
+//    score.forEach{(name, score) -> Log.d("KotlinWeek03", "$name score : $score")}
+//}
 
 fun week02Variable(){
 //    println("Week02 Variable")
