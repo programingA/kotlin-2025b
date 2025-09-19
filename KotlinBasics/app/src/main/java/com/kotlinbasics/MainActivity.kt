@@ -63,6 +63,12 @@ private fun week03Classes(){
     }
     val puppy = Animal("puppy", 6.5)
     puppy.makeSound()
+
+    class Dog(species: String, weight: Double, var breed: String) : Animal(species, weight){
+        override  fun makeSound(){
+            Log.d("KotlinWeek03", "$breed ($species) is WakWak")
+        }
+    }
 }
 
 

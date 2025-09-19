@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67e6a5ac-2c96-45d1-a8ca-a26dc018bffa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin-2025b" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KotlinBasics/app/src/main/java/com/kotlinbasics/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/KotlinBasics/app/src/main/java/com/kotlinbasics/MainActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kotlin-2025b/KotlinBasics/app/src/main/java/com/kotlinbasics/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-2025b/KotlinBasics/app/src/main/java/com/kotlinbasics/MainActivity.kt" afterDir="false" />
@@ -20,7 +20,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=C:\Users\314\.android\avd\Medium_Phone.avd)]" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/kotlin-2025b" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
