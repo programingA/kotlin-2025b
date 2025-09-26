@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67e6a5ac-2c96-45d1-a8ca-a26dc018bffa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kotlin-2025b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KotlinBasics/app/src/main/java/com/kotlinbasics/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/KotlinBasics/app/src/main/java/com/kotlinbasics/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-2025b/KotlinBasics/app/src/main/java/com/kotlinbasics/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-2025b/KotlinBasics/app/src/main/java/com/kotlinbasics/MainActivity.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,7 @@
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/kotlin-2025b-main/kotlin-2025b&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/314/AndroidStudioProjects/kotlin-2025b&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
 }</component>
