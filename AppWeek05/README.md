@@ -3,7 +3,7 @@
 This repository contains the source code and documentation for Week 05 of the Kotlin learning project, developed in Android Studio using XML Views. The focus is on ListView and data handling with simple interactive Android apps.
 
 ## Project Overview
-- **Path**: `D:\kotlin-2025a\AppWeek05`
+- **Path**: `D:\kotlin-2025b\AppWeek05`
 - **Environment**: Android Studio, Kotlin, XML Views (Empty Views Activity)
 - **Purpose**: Practice ListView, ArrayAdapter, and data manipulation with simple apps: Student List, Shopping Cart, and Task Manager.
 - **Structure**: Single Activity (`MainActivity.kt`) with ListView integration and data management.
