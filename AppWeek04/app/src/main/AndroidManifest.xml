@@ -24,7 +24,7 @@
             android:name=".GreetingActivity"
             android:exported="false" />
         <activity
-            android:name=".ColorActivity"
+            android:name=".CounterActivity"
             android:exported="false" />
     </application>
 

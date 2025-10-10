@@ -25,15 +25,15 @@ This repository contains the source code and documentation for a Kotlin learning
 
 ### Content
 1. **`week03Classes()`**:
-    - Basic class creation (`Person`) with properties and methods.
-    - Primary and secondary constructors, inheritance (`Animal` → `Dog`).
-    - Data classes (`Book`) for automatic `equals`, `hashCode`, and `toString`.
-    - Example: Create a `Person` instance and log its introduction.
+   - Basic class creation (`Person`) with properties and methods.
+   - Primary and secondary constructors, inheritance (`Animal` → `Dog`).
+   - Data classes (`Book`) for automatic `equals`, `hashCode`, and `toString`.
+   - Example: Create a `Person` instance and log its introduction.
 2. **`week03Collections()`**:
-    - Immutable/mutable collections: `List`, `Set`, `Map`.
-    - Operations using lambdas: `filter` for evens, `map` for squares.
-    - Custom extension function (`printEach`) for `List`.
-    - Example: Filter a list of fruits and log unique counts.
+   - Immutable/mutable collections: `List`, `Set`, `Map`.
+   - Operations using lambdas: `filter` for evens, `map` for squares.
+   - Custom extension function (`printEach`) for `List`.
+   - Example: Filter a list of fruits and log unique counts.
 
 ### How to Run
 1. Open the project in Android Studio (`D:\kotlin-2025b\KotlinBasics`).
