@@ -62,7 +62,7 @@ class MainActivity : AppCompatActivity() {
         buttonClear.setOnClickListener{
             clearAllStudent()
         }
-        listView.setOnItemLongClickListener { _, _, position, _ -> removeStduent(position)
+        listView.setOnItemLongClickListener { _, _, position, _ -> removeStudent(position)
             true
         }
         listView.setOnItemClickListener { _, _, position, _ ->
@@ -99,9 +99,27 @@ class MainActivity : AppCompatActivity() {
         Log.d(TAG, "Added student: $studentName (Total: ${studentList.size})")
     }
     private fun clearAllStudent(){
-
+        if(studentList.isEmpty()){
+            Toast.makeText(this, "List is alreay empty", Toast.LENGTH_SHORT).show()
+            return
+        }
+        val count = studentList.size
+        studentList.clear()
+        adapter.notifyDataSetChanged()
+        updateStudentCount()
+        Toast.makeText(this, "Cleared all ${studentList.size}", Toast.LENGTH_SHORT).show()
+        Log.d(TAG, "Cleared all student (Total cleared : $count)")
     }
-    private  fun removeStduent(position: Int){
+    private fun removeStudent(position: Int){
+        if(position >= 0 && position < studentList.size){
+            val removeStudent = studentList.removeAt(position)
+            adapter.notifyDataSetChanged()
+            updateStudentCount()
+
+            Toast.makeText(this, "Removed: $removeStudent", Toast.LENGTH_SHORT).show()
+            Log.d(TAG, "Removed student: $removeStudent (Remaining: ${studentList.size})")
+        }
+
 
     }
     private fun updateStudentCount(){
